@@ -1,0 +1,36 @@
+@import url(../01_todolist.css);
+
+/* 01_todolist.cas에서 import해 가지고 온 css에도 .input-group input이 있지만 추가 조건을 검*/
+.input-group input{
+  /* 기존은 todolist와 동일하고 이것만 추가 */
+  width: 0;
+}
+
+/* 이 id 선택자는 todolist가 없던거니 추가적 설정 */
+#price-input {
+  /* 이쪽이 더 디테일한 조건이니 input-group input과 동일한 속성이 있으면 이 부분의 것 적용 */
+  flex-grow: 0.5;
+}
+
+.item-text {
+  margin-left: 10px; /* 체크박스와 간격 */
+}
+
+.price {
+  margin-left: auto; /* 가능한 오른쪽으로 밀기 */
+  margin-right: 10px; /* delete 버튼과 간격 */
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: var(--light-gray);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.delete-btn:hover {
+  color: #e74c3c;
+}
+
