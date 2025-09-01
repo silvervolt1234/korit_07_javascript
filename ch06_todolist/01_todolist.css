@@ -98,10 +98,12 @@ h1 {
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
+/* js 38 번 라인과 연결 */
 .todo-item.completed {
   background-color: #e8eaed;
 }
 
+/* li 태그의 background 컬러가 아닌 그 자식인 span 태그 부분에 추가 */
 .todo-item.completed .todo-text {
   text-decoration: line-through;
   color: var(--completed-color);
