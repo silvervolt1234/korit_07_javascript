@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+
+  flex-direction: column; 
+  gap: 10px;            
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-container {
+  background: #ffffFF;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgb(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+input {
+  display: block; 
+  width: 200px;     
+  padding: 8px;   
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block; 
+  width: 200px;     
+  padding: 8px;   
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.find-btn {
+  display: flex;          
+  justify-content: center; 
+  gap: px;                
+  margin-top: 30px;
+}
+
+.signupsite {
+  background: none;      
+  border: none;          
+  padding: 0;            
+  font-size: 0.8rem;    
+  color: gray;      
+  cursor: pointer;
+}
+
+.idpwsite {
+  background: none;      
+  border: none;          
+  padding: 0;            
+  font-size: 0.8rem;    
+  color: gray;      
+  cursor: pointer;
+}
