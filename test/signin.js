@@ -6,9 +6,9 @@ function login() {
     var password = document.getElementById("pw").value;
 
     if (userData[username] && userData[username].password === password) {
-        alert("로그인했습니다");
+        alert("로그인 성공");
     } else {
-        alert("아이디나 비밀번호가 틀립니다");
+        alert("로그인 실패");
     }
 }
 
